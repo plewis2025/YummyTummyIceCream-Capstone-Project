@@ -98,6 +98,7 @@ public class UserInterface {
         while (true) {
             System.out.print("Add topping (or 'done'): ");
             String topping = scanner.nextLine();
+<<<<<<< HEAD
 
             if (topping.equalsIgnoreCase("done")) break;
             if (topping.isBlank()) {
@@ -110,6 +111,16 @@ public class UserInterface {
                 System.out.println("Added " + topping);
             }
             }
+=======
+            if (topping.equalsIgnoreCase("done")) break;
+            if (topping.isBlank()) {
+                System.out.println("Type a topping name or 'done'.");
+                continue;
+            }
+            sandwich.addTopping(new Topping(topping, 0.50));
+            System.out.println("Added " + topping);
+        }
+>>>>>>> 9a132f1fd583aefd0cd23316c1aafe9fef642997
 
         currentOrder.addSandwich(sandwich);
         System.out.println("✅ Added: " + sandwich.getSummary());
