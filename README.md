@@ -1,5 +1,5 @@
 ![28947874_441428889610980_7300557977463824173_o](https://github.com/user-attachments/assets/f26fd7d8-1fa9-4147-8328-56d6b9f190ee)
-Yummy Tummy Ice Cream shop
+Yummy Tummy Ice Cream Shop
 
 <img width="645" height="968" alt="YummyTummyDiagram" src="https://github.com/user-attachments/assets/17ff589d-69af-4158-b547-cb579c6bfe01" />
 The system allows users to build custom ice cream sandwiches, manage orders, and interact through a console-based menu.
@@ -88,4 +88,5 @@ Screenshot Of An Example of Me Running The Program To Generate A Receipt Order F
 4.
 <img width="1919" height="889" alt="Screenshot 2025-11-13 165031" src="https://github.com/user-attachments/assets/4a280428-04be-4d5d-9702-33a9fc4ae604" />
 5.
+
 
