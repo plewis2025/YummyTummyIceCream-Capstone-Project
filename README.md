@@ -78,6 +78,7 @@ IceCreamSandwich contains multiple Toppings
 
 UserInterface interacts with all other classes to build and display orders
 
+
 Screenshot Of An Example of Me Running The Program To Generate A Receipt Order From Yummy Tummy Ice Cream Shop
 <img width="1909" height="1017" alt="Screenshot 2025-11-13 163012" src="https://github.com/user-attachments/assets/1c819fba-5c15-4c47-9ccf-75a83ce31030" />
 1.
@@ -100,4 +101,5 @@ Interesting Piece of Code
 Why?
 
 I booked a tutoring session to review what I was missing in my project, specifically in the Topping class. During the session, we discovered that the boolean field isExtra was missing. This field is important because the system needs to ask the customer whether they want extra toppings, and if they do, it should add 50 cents to the order total. That option was missing from my Topping class file, but I’ve now added it. Funny thing is, I actually knew how to write it — I just needed that second confirmation from the tutor to make sure I was doing it correctly and using the proper approach to add it to the class.
+
 
