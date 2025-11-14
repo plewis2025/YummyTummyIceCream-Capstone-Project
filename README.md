@@ -17,31 +17,6 @@ Users can:
 
 ---
 
-   Interesting Code Feature
-
- `isExtra` Boolean in `Topping.java`
-
-One of the most interesting features is the `isExtra` boolean added to the `Topping` class. This allows the system to ask users if they want extra toppings, and if so, it adds $0.50 to the sandwich price.
-Why?
-I booked a tutoring session to review what I was missing in my project, specifically in the Topping class. During the session, we discovered that the boolean field isExtra was missing. This field is important because the system needs to ask the customer whether they want extra toppings, and if they do, it should add 50 cents to the order total. That option was missing from my Topping class file, but I’ve now added it. Funny thing is, I actually knew how to write it — I just needed that second confirmation from the tutor to make sure I was doing it correctly and using the proper approach to add it to the class.
-```java
-public class Topping {
-    private String name;
-    private double price;
-    private boolean isExtra;
-
-    public Topping(String name, double price, boolean isExtra) {
-        this.name = name;
-        this.price = price;
-        this.isExtra = isExtra;
-    }
-
-    public double getPrice() {
-        return isExtra ? price + 0.50 : price;
-    }
-}
----
-
 <img width="645" height="968" alt="YummyTummyDiagram" src="https://github.com/user-attachments/assets/9474a8bf-fee5-4e3a-9ae8-16a1a7d91efa" />
 
 The system allows users to build custom ice cream sandwiches, manage orders, and interact through a console-based menu.
@@ -132,6 +107,33 @@ Screenshot Of An Example of Me Running The Program To Generate A Receipt Order F
 <img width="1919" height="889" alt="Screenshot 2025-11-13 165031" src="https://github.com/user-attachments/assets/4a280428-04be-4d5d-9702-33a9fc4ae604" />
 5.
 
+
+
+
+
+   Interesting Code Feature
+
+ `isExtra` Boolean in `Topping.java`
+
+One of the most interesting features is the `isExtra` boolean added to the `Topping` class. This allows the system to ask users if they want extra toppings, and if so, it adds $0.50 to the sandwich price.
+Why?
+I booked a tutoring session to review what I was missing in my project, specifically in the Topping class. During the session, we discovered that the boolean field isExtra was missing. This field is important because the system needs to ask the customer whether they want extra toppings, and if they do, it should add 50 cents to the order total. That option was missing from my Topping class file, but I’ve now added it. Funny thing is, I actually knew how to write it — I just needed that second confirmation from the tutor to make sure I was doing it correctly and using the proper approach to add it to the class.
+```java
+public class Topping {
+    private String name;
+    private double price;
+    private boolean isExtra;
+
+    public Topping(String name, double price, boolean isExtra) {
+        this.name = name;
+        this.price = price;
+        this.isExtra = isExtra;
+    }
+
+    public double getPrice() {
+        return isExtra ? price + 0.50 : price;
+    }
+}
 
 
 
